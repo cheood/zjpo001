@@ -1,0 +1,16 @@
+add_address:
+  name: "张三"
+  phone: "13300008888"
+  province: "天津市"
+  city: "天津市"
+  area: "南开区"
+  detail_address: "白云道观白云庵"
+  postcode: "100020"
+update_address:
+  name: "李四"
+  phone: "13811119999"
+  province: "福建省"
+  city: "莆田市"
+  area: "涵江区"
+  detail_address: "白马寺回龙观"
+  postcode: "100010"

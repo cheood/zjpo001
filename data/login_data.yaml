@@ -1,0 +1,45 @@
+bnal_login_001:
+  username: '13521514816'
+  password: '123456'
+  expect: 'cheng_heng_fei'
+  success: True
+bnal_login_002:
+  username: ' 13521514816 '
+  password: '123456'
+  expect: 'cheng_heng_fei'
+  success: True
+bnal_login_003:
+  username: 'cheng_heng_fei'
+  password: '123456'
+  expect: 'cheng_heng_fei'
+  success: True
+bnal_login_004:
+  username: ' cheng_heng_fei '
+  password: '123456'
+  expect: 'cheng_heng_fei'
+  success: True
+bnal_login_007:
+  username: '13521514833'
+  password: '123456'
+  expect: '此用户不存在'
+  success: False
+bnal_login_008:
+  username: '135215148166'
+  password: '123456'
+  expect: '此用户不存在'
+  success: False
+bnal_login_009:
+  username: '13521514816'
+  password: '123547'
+  expect: '登录密码错误'
+  success: False
+bnal_login_010:
+  username: 'cheng_heng'
+  password: '123456'
+  expect: '此用户不存在'
+  success: False
+bnal_login_011:
+  username: 'cheng_heng_fei'
+  password: '123542'
+  expect: '登录密码错误'
+  success: False
