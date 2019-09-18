@@ -94,7 +94,7 @@ class Base:
         """base类 将截图写入报告的方法"""
         # 读取本地的截图 写入报告
         path = os.path.abspath(os.path.dirname(__file__))
-        with open(path+"/image/err.png", "rb") as f:
+        with open(path+"../image/err.png", "rb") as f:
             # 写入报告
             allure.attach("失败原因", f.read(), allure.attach_type.PNG)
 
