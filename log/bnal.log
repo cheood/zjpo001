@@ -1,0 +1,66 @@
+2019-09-19 01:36:45,040 INFO [root] [base.py (__init__:20] - 初始化的driver <appium.webdriver.webdriver.WebDriver (session="05994368-291c-41cd-a5a8-8e2b9bf39631")>
+2019-09-19 01:36:45,040 INFO [root] [base.py (__init__:20] - 初始化的driver <appium.webdriver.webdriver.WebDriver (session="05994368-291c-41cd-a5a8-8e2b9bf39631")>
+2019-09-19 01:36:45,040 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/img_close') 等待时间10查找频率0.5
+2019-09-19 01:36:46,684 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/tab_me') 等待时间10查找频率0.5
+2019-09-19 01:36:47,791 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/textView1') 等待时间10查找频率0.5
+2019-09-19 01:36:51,196 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/logon_account_textview')，输入的信息cheng_heng_fei
+2019-09-19 01:36:51,199 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/logon_account_textview') 等待时间10查找频率0.5
+2019-09-19 01:36:54,487 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/logon_password_textview')，输入的信息123456
+2019-09-19 01:36:54,488 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/logon_password_textview') 等待时间10查找频率0.5
+2019-09-19 01:37:00,005 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/logon_button') 等待时间10查找频率0.5
+2019-09-19 01:37:02,819 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image') 等待时间10查找频率0.5
+2019-09-19 01:37:05,310 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/setting_address_manage') 等待时间10查找频率0.5
+2019-09-19 01:37:08,980 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_add_new_btn') 等待时间10查找频率0.5
+2019-09-19 01:37:15,645 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_receipt_name')，输入的信息张三
+2019-09-19 01:37:15,646 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_receipt_name') 等待时间10查找频率0.5
+2019-09-19 01:37:20,207 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_add_phone')，输入的信息13300008888
+2019-09-19 01:37:20,208 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_add_phone') 等待时间10查找频率0.5
+2019-09-19 01:37:22,279 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_province') 等待时间10查找频率0.5
+2019-09-19 01:37:23,793 INFO [root] [base.py (base_find:28] - 查找的元素('xpath', "//*[contains(@text,'天津市')]") 等待时间10查找频率0.5
+2019-09-19 01:37:25,543 INFO [root] [base.py (base_find:28] - 查找的元素('class name', 'android.widget.RelativeLayout') 等待时间10查找频率0.5
+2019-09-19 01:37:26,529 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/area_title') 等待时间10查找频率0.5
+2019-09-19 01:37:27,268 INFO [root] [base.py (base_find:28] - 查找的元素('xpath', "//*[contains(@text,'南开区')]") 等待时间10查找频率0.5
+2019-09-19 01:37:28,555 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_detail_addr_info')，输入的信息白云道观白云庵
+2019-09-19 01:37:28,556 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_detail_addr_info') 等待时间10查找频率0.5
+2019-09-19 01:37:30,649 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_post_code')，输入的信息100020
+2019-09-19 01:37:30,650 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_post_code') 等待时间10查找频率0.5
+2019-09-19 01:37:34,080 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_default') 等待时间10查找频率0.5
+2019-09-19 01:37:34,957 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/button_send') 等待时间10查找频率0.5
+2019-09-19 01:37:35,852 INFO [root] [base.py (base_finds:38] - 查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
+2019-09-19 01:37:51,809 ERROR [root] [test_address.py (test01_add_address:63] - assert '张三 13300008888' in ['张三  13300008888', '张三  13300008888', '张三  13300008888', '张三  13300008888', '张三  13300008888', '张三  13300008888']
+2019-09-19 01:37:54,200 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:37:54,280 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'修改')]") 等待时间10查找频率0.5
+2019-09-19 01:37:54,966 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_receipt_name')，输入的信息李四
+2019-09-19 01:37:54,966 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_receipt_name') 等待时间10查找频率0.5
+2019-09-19 01:37:59,233 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_add_phone')，输入的信息13811119999
+2019-09-19 01:37:59,234 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_add_phone') 等待时间10查找频率0.5
+2019-09-19 01:38:02,386 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_province') 等待时间10查找频率0.5
+2019-09-19 01:38:03,472 INFO [root] [base.py (base_find:28] - 查找的元素('xpath', "//*[contains(@text,'福建省')]") 等待时间10查找频率0.5
+2019-09-19 01:38:06,756 INFO [root] [base.py (base_find:28] - 查找的元素('xpath', "//*[contains(@text,'莆田市')]") 等待时间10查找频率0.5
+2019-09-19 01:38:08,502 INFO [root] [base.py (base_find:28] - 查找的元素('xpath', "//*[contains(@text,'涵江区')]") 等待时间10查找频率0.5
+2019-09-19 01:38:09,400 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_detail_addr_info')，输入的信息白马寺回龙观
+2019-09-19 01:38:09,401 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_detail_addr_info') 等待时间10查找频率0.5
+2019-09-19 01:38:14,787 INFO [root] [base.py (base_input:52] - 正在输入信息的文本框('id', 'com.yunmall.lc:id/address_post_code')，输入的信息100010
+2019-09-19 01:38:14,788 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/address_post_code') 等待时间10查找频率0.5
+2019-09-19 01:38:18,791 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/button_send') 等待时间10查找频率0.5
+2019-09-19 01:38:19,804 INFO [root] [base.py (base_finds:38] - 查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
+2019-09-19 01:38:21,546 INFO [root] [base.py (base_finds:38] - 查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
+2019-09-19 01:38:21,881 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:38:22,296 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
+2019-09-19 01:38:23,022 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
+2019-09-19 01:38:24,799 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:38:25,665 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
+2019-09-19 01:38:26,355 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
+2019-09-19 01:38:27,795 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:38:28,752 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
+2019-09-19 01:38:29,576 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
+2019-09-19 01:38:30,859 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:38:31,835 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
+2019-09-19 01:38:32,606 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
+2019-09-19 01:38:34,362 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:38:35,484 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
+2019-09-19 01:38:36,165 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
+2019-09-19 01:38:37,534 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
+2019-09-19 01:38:39,039 INFO [root] [base.py (base_finds:38] - 查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
+2019-09-19 01:38:39,540 INFO [root] [base.py (base_find:28] - 查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
+2019-09-19 01:38:40,588 INFO [root] [base.py (base_finds:38] - 查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
