@@ -52,7 +52,7 @@ class TestAddress:
         try:
 
             # 断言
-            expect = name + "  " + phone
+            expect = name + " " + phone
             arr = self.address.page_get_address_text_list()
             print("断言--->expect:{}是否包含于arr{}".format(expect, arr))
             assert expect in arr
