@@ -1,0 +1,382 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568832291851" stop="1568832427444">
+  <description>地址管理 测试类</description>
+  <name>test_address</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568832291851" status="failed" stop="1568832395324">
+      <description>测试地址管理 新增方法</description>
+      <name>TestAddress.test01_add_address[\u5f20\u4e09-13300008888-\u5929\u6d25\u5e02-\u5929\u6d25\u5e02-\u5357\u5f00\u533a-\u767d\u4e91\u9053\u89c2\u767d\u4e91\u5eb5-100020]</name>
+      <failure>
+        <message>AssertionError: assert '张三 13300008888' in ['张三  13300008888']</message>
+        <stack-trace>self = &lt;test_address.TestAddress object at 0x0000000004B53EB8&gt;, name = '张三', phone = '13300008888', province = '天津市'
+city = '天津市', area = '南开区', detail_address = '白云道观白云庵', postcode = '100020'
+
+    @pytest.mark.parametrize("name, phone, province, city, area, detail_address, postcode",
+                             load_address_data("add_address"))
+    def test01_add_address(self, name, phone, province, city, area, detail_address, postcode):
+        """测试地址管理 新增方法"""
+        self.address.page_add_address_fun(name, phone, detail_address, postcode, province, city, area)
+    
+        try:
+    
+            # 断言
+            expect = name + " " + phone
+            arr = self.address.page_get_address_text_list()
+            print("断言---&gt;expect:{}是否包含于arr{}".format(expect, arr))
+&gt;           assert expect in arr
+E           AssertionError: assert '张三 13300008888' in ['张三  13300008888']
+
+script\test_address.py:58: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="9437ad2c-06cf-4d85-8f70-e88cd2cd2963-attachment.png" title="失败原因" type="image/png"/>
+        <attachment source="1af280ec-17a0-46ee-ad48-e9ddacff5634-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="ac239e91-7dc9-4ed5-a7d5-5c34a1a3680e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5528-MainThread"/>
+        <label name="host" value="lenovo-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568832337779" status="passed" stop="1568832339121">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="cd33dd9d-503b-4f4b-81e8-9d75a492de8d-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832339220" status="passed" stop="1568832339961">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="98674f2c-a0dc-43a3-88b3-441aee69d2ff-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832340512" status="passed" stop="1568832341814">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="ea2f2697-63c2-4423-89de-22f8debfda04-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832343287" status="passed" stop="1568832343410">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="ac4d8895-8785-40f6-bfed-e1f3a84c2b98-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832345299" status="passed" stop="1568832345829">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="53f378e9-7aa2-45b0-a0d1-401f4be9a6e7-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832349597" status="passed" stop="1568832350073">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="3543f75b-5634-4116-9c5e-097b83920708-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832352161" status="passed" stop="1568832353122">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="f1676d5e-aaa8-4f8a-8829-1a107b58f571-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832354022" status="passed" stop="1568832356466">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="83968521-75a9-4485-8c5e-a08652567bb1-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832356627" status="passed" stop="1568832359116">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="edafd332-145e-45bb-8717-9e5307c7c941-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832359229" status="passed" stop="1568832361037">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="7dbe0b98-4307-492c-91b1-e309db807041-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832364324" status="passed" stop="1568832364901">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="453bf888-b049-4166-8505-d4781a5ee9e5-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832368151" status="passed" stop="1568832368774">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="eb83c7a0-998f-4ebb-a9e0-874664ef9b6c-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832370170" status="passed" stop="1568832372449">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="c4b86d77-9607-4104-bb2c-97c7618ad2b0-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832373022" status="passed" stop="1568832373534">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="375a2d39-cca6-4baa-859e-ba3d74e0da11-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832373600" status="passed" stop="1568832374109">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="586b84f5-1347-424f-a3a0-1add27e9c46f-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832374180" status="passed" stop="1568832375042">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="1d314cc3-abeb-4735-a69f-ce299a37f28d-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832375580" status="passed" stop="1568832376076">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="f7ceadff-0687-49e6-ae49-5e539717d292-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832377631" status="passed" stop="1568832378150">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="e9f5df5e-e1db-40ef-9c2b-1cfe503c337d-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832380934" status="passed" stop="1568832381416">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="20fe6a4f-9c6b-4251-adc8-9e81c1199fc2-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832381514" status="passed" stop="1568832381629">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="1047d29a-ebc1-4f67-b220-23b7d858a344-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832382020" status="passed" stop="1568832383930">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="97374ff3-e22b-49bf-85ca-d3ae2edbbbca-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568832395395" status="passed" stop="1568832419999">
+      <description>测试地址管理 修改方法</description>
+      <name>TestAddress.test02_update_address[\u674e\u56db-13811119999-\u798f\u5efa\u7701-\u8386\u7530\u5e02-\u6db5\u6c5f\u533a-\u767d\u9a6c\u5bfa\u56de\u9f99\u89c2-100010]</name>
+      <attachments>
+        <attachment source="4924f3c6-2fcc-44f8-8612-298f8e52e3a1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5528-MainThread"/>
+        <label name="host" value="lenovo-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568832397407" status="passed" stop="1568832397449">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="9763bb9b-d3e0-40ba-bfd6-477b0b93a220-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832397526" status="passed" stop="1568832398160">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="c754f002-6497-4aeb-b251-6abb60042a50-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832398185" status="passed" stop="1568832399589">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="89015558-0a83-4d8c-8e0e-2db1ed669512-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832401420" status="passed" stop="1568832401931">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="e0d1f288-5f16-42a0-b043-6fb0eb7825f6-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832404756" status="passed" stop="1568832405268">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="8196789c-beca-498c-ba76-14e6d5cb20e9-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832405368" status="passed" stop="1568832407254">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="25b7a53f-9f7c-4769-a04d-023d333a045f-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832407581" status="passed" stop="1568832408590">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="78478b5c-667d-4734-8e0a-516b419f0f22-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832408694" status="passed" stop="1568832409474">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="443ef27a-9201-4ad7-8a67-b0a20e110d80-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832409538" status="passed" stop="1568832410119">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="9ec3f696-ece2-477f-a4e4-9931bdae11cb-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832414903" status="passed" stop="1568832415453">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="4968ae4f-53db-4300-975a-848287de682f-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832417999" status="passed" stop="1568832418552">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="79f13c04-bf30-4964-98e5-deded470dfa9-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832419006" status="passed" stop="1568832419948">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="9f970336-73b1-48e9-a6ec-44b2dbd62d40-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1568832420016" status="passed" stop="1568832427444">
+      <name>TestAddress.test03_delete_address</name>
+      <attachments>
+        <attachment source="f158af30-35b7-4b7e-9a92-c3b8462114d6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5528-MainThread"/>
+        <label name="host" value="lenovo-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568832420017" status="passed" stop="1568832420048">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="2812dd6f-1eec-4da6-a088-8155a9178f82-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832420106" status="passed" stop="1568832420149">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="1ffbc128-bae9-4496-b703-9779539822e4-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832420211" status="passed" stop="1568832420919">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="14a10754-c9a0-4296-8ffe-3a9be6cfa70c-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832421023" status="passed" stop="1568832423518">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="80a2b53e-f076-4d24-959a-7acbc8429e3b-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1568832424289" status="failed" stop="1568832427443">
+          <name>查找元素</name>
+          <title>查找元素</title>
+          <attachments>
+            <attachment source="8f28a41e-14ce-4c90-9702-6ac9601e2920-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

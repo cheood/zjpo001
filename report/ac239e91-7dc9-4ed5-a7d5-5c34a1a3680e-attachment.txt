@@ -1,0 +1,18 @@
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_add_new_btn') 等待时间10查找频率0.5
+base.py                     55 INFO     正在输入信息的文本框('id', 'com.yunmall.lc:id/address_receipt_name')，输入的信息张三
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_receipt_name') 等待时间10查找频率0.5
+base.py                     55 INFO     正在输入信息的文本框('id', 'com.yunmall.lc:id/address_add_phone')，输入的信息13300008888
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_add_phone') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_province') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('xpath', "//*[contains(@text,'天津市')]") 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('class name', 'android.widget.RelativeLayout') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/area_title') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('xpath', "//*[contains(@text,'南开区')]") 等待时间10查找频率0.5
+base.py                     55 INFO     正在输入信息的文本框('id', 'com.yunmall.lc:id/address_detail_addr_info')，输入的信息白云道观白云庵
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_detail_addr_info') 等待时间10查找频率0.5
+base.py                     55 INFO     正在输入信息的文本框('id', 'com.yunmall.lc:id/address_post_code')，输入的信息100020
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_post_code') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/address_default') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/button_send') 等待时间10查找频率0.5
+base.py                     41 INFO     查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
+test_address.py             63 ERROR    assert '张三 13300008888' in ['张三  13300008888']

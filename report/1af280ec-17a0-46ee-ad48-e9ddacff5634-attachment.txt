@@ -1,0 +1,12 @@
+base.py                     23 INFO     初始化的driver <appium.webdriver.webdriver.WebDriver (session="1d79a52d-60a5-49d5-b6ba-33b2a827ab5d")>
+base.py                     23 INFO     初始化的driver <appium.webdriver.webdriver.WebDriver (session="1d79a52d-60a5-49d5-b6ba-33b2a827ab5d")>
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/img_close') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/tab_me') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/textView1') 等待时间10查找频率0.5
+base.py                     55 INFO     正在输入信息的文本框('id', 'com.yunmall.lc:id/logon_account_textview')，输入的信息cheng_heng_fei
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/logon_account_textview') 等待时间10查找频率0.5
+base.py                     55 INFO     正在输入信息的文本框('id', 'com.yunmall.lc:id/logon_password_textview')，输入的信息123456
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/logon_password_textview') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/logon_button') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_left_btn_image') 等待时间10查找频率0.5
+base.py                     31 INFO     查找的元素('id', 'com.yunmall.lc:id/setting_address_manage') 等待时间10查找频率0.5
