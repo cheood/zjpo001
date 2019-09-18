@@ -1,6 +1,8 @@
 """
 基类  封装底层公共方法 13521514816 cheng_heng_fei  123456
 """
+import os
+
 import allure
 import pytest
 from selenium.webdriver.common.by import By
@@ -91,7 +93,8 @@ class Base:
     def base_scrren_write_report(self):
         """base类 将截图写入报告的方法"""
         # 读取本地的截图 写入报告
-        with open("./image/err.png", "rb") as f:
+        path = os.path.abspath(os.path.dirname(__file__))
+        with open(path+"/image/err.png", "rb") as f:
             # 写入报告
             allure.attach("失败原因", f.read(), allure.attach_type.PNG)
 
