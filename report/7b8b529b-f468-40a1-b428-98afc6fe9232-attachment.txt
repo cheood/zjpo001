@@ -1,1 +1,0 @@
-查找元素('id', 'com.yunmall.lc:id/logon_button'),传入的参数是：响应时间10,请求的频率0.5

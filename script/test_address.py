@@ -86,7 +86,8 @@ class TestAddress:
             # 抛出异常
             raise
 
-    # 测试删除方法
+    #
+    # # 测试删除方法
     def test03_delete_address(self):
         self.address.page_delete_address_all()
         try:

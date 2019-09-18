@@ -1,5 +1,0 @@
-base.py                     38 INFO     查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
-base.py                     28 INFO     查找的元素('id', 'com.yunmall.lc:id/ymtitlebar_right_btn') 等待时间10查找频率0.5
-base.py                     38 INFO     查找的元素('xpath', "//*[contains(@text,'删除')]") 等待时间10查找频率0.5
-base.py                     28 INFO     查找的元素('id', 'com.yunmall.lc:id/ymdialog_left_button') 等待时间10查找频率0.5
-base.py                     38 INFO     查找的元素('id', 'com.yunmall.lc:id/receipt_name') 等待时间3查找频率0.5
